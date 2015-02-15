@@ -68,6 +68,7 @@ p4 {
     width: 600px;
     margin: auto;
     margin-top: 50px;
+    position: absolute bottom;
 }
 #section {
     position: center;
@@ -89,4 +90,24 @@ p {
     font-size: 120%;
     text-align: left;
     margin: 5px;
-    
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:active {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;  
+}
+a:visited {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;    
+}
+a:link {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
