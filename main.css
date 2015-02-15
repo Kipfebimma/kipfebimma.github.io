@@ -3,6 +3,8 @@ body {
     background-size:cover;align-content: center;
     background-repeat:no-repeat;
     background-attachment: fixed;
+    background-origin: inherit;
+    background-position: center;
 }
 #header {
     color:white;
