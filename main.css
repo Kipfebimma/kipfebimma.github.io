@@ -157,13 +157,14 @@ div#hmenu {
    margin: 50px; 
    padding: .3em 0 .3em 0; 
    background: #778899;
-   width: 600px; 
+   width: 568px; 
    text-align: center; 
     margin: auto;
     border-radius: 20px;
     border: 4px solid white;
     color:white;
     text-decoration: bold;
+    padding: 15px;
 } 
 
 div#hmenu ul { 
@@ -181,6 +182,8 @@ div#hmenu ul li {
 div#hmenu ul a:link{ 
    margin: 0; 
    padding: .3em .4em .3em .4em; 
+    border: 3px solid white;
+    border-radius: 10px;
    font-weight:; 
    font-size: 200%; 
    color: white; 
