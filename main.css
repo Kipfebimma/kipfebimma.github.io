@@ -1,36 +1,36 @@
 body {
-    background-color:lightblue;
+    font-family: monospace;
+    color:white;
+    background-image:url(foto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
 }
 #header {
     color:white;
     text-align: center;
-    font-family: monospace;
-    font-size: 200%;
+    font-size: 120%;
     border:4px solid white;
-    background-color:#787878;
-    width:1000px;
+    border-radius: 20px;
+    background-color:	#778899;
+    width:600px;
     margin: auto;
-    margin-bottom: 100px;        
+    margin-bottom: 50px;     
+    margin-top: 20px;
 }   
-p1 {
-    color:white;
-    text-align: justify;
-    font-family: monospace;
-    font-size: 200%;
-    border:2px solid white;
-    padding:40px;
-    margin:100px;
-    background-color:#787878;
+p {
+    text-align: center;
 }
-p2 {
-    color:white;
-    text-align: justify;
-    font-family: monospace;
-    font-size: 200%;
-    border:2px solid white;
-    padding:40px;
-    margin:100px;
-      background-color:#787878;
+h8 { padding: 30px;
+}
+#wrapper{
+    min-height: 100%;
+    position:relative;
 }
 p3 {
     color:white;
@@ -39,7 +39,7 @@ p3 {
     font-size: 200%;
     border:2px solid white;
     padding:40px;
-    margin:100px;
+    margin:20px;
       background-color:#787878;
 }
 p4 {
@@ -49,34 +49,80 @@ p4 {
     font-size: 200%;
     border:2px solid white;
     padding:40px;
-    margin:100px;
+    margin:60px;
     background-color:#787878;
 }
 #footer {
     color: white;
     text-align: center;
-    background-color:#787878 ;
-    position: center;
-    padding: px;
-    font-size: 150%;
+    background-color:	#778899 ;
+    font-size: 200%;
     border: 4px solid white;
-    width: 600px;
+    width: 584px;
+    border-radius:20px;
     margin: auto;
+    position: center;
     margin-top: 50px;
-    position: absolute bottom;
+    padding: 5px;
+    
 }
 #section {
     position: center;
-    font-family: monospace;
-    color: white;
     font-size: 200%;
     text-align: center;
     border: 4px solid white;
-    background-color: #787878;
-    padding-bottom: 50px;
-    width: 600px;
+    border-radius: 20px;
+    background-color:#787878 ;
+    padding: 20px;
+    width: 555px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+}
+div#section2 {
+    position: center;
+    font-size: 200%;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: #787878;
+    padding: 20px;
+    width: 555px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    
+}
+div#section3 {
+    position: center;
+    padding: inherit 20px;
+    font-size: 200%;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: #787878;
+    padding: 20px;
+    width: 555px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    
+}
+div#section4 {
+    position: center;
+    padding: inherit 20px;
+    font-size: 200%;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: #787878;
+    padding: 20px;
+    width: 555px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    
 }
 h2 {
     font-size: 225%;
@@ -105,4 +151,74 @@ a:link {
     color:white;
     text-decoration: none;
     background-color: transparent;
+} 
+
+div#hmenu { 
+   margin: 50px; 
+   padding: .3em 0 .3em 0; 
+   background: #778899;
+   width: 600px; 
+   text-align: center; 
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid white;
+    color:white;
+    text-decoration: bold;
+} 
+
+div#hmenu ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+
+div#hmenu ul li { 
+   margin: 0; 
+   padding: 0; 
+   display: inline; 
+} 
+
+div#hmenu ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   font-weight:; 
+   font-size: 200%; 
+   color: white; 
+} 
+
+div#hmenu ul a:visited{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   font-size: 200%; 
+   color: white; 
+} 
+
+div#hmenu ul a:active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   font-weight: bold; 
+   font-size: 200%; 
+   color: white; 
+} 
+
+div#hmenu ul a:hover{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   font-weight: bold; 
+   font-size: 200%; 
+   color: black ; 
 }
+div#section2 ul a:hover{
+    margin: 0;
+    padding:.3em .4em .3em .4em;
+   font-weight: bold; 
+   font-size: 200%; 
+   color: black ; 
+}
+div#section2 ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   font-weight:; 
+   font-size: 200%; 
+   color: white; 
+} 
