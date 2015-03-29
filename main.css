@@ -107,11 +107,6 @@ p {
     text-align: left;
     margin: 5px;
 }
-a:hover{
-    color:white;
-    text-decoration: none;
-    background-color: transparent;
-}
 a:active {
     color:white;
     text-decoration: none;
@@ -127,6 +122,11 @@ a:link {
     text-decoration: none;
     background-color: transparent;
 } 
+div#section a:hover {
+    color: black;
+    font-weight: bold;
+    width: 555px;
+}
 div#hmenu { 
    margin: 50px; 
    padding: .3em 0 .3em 0; 
