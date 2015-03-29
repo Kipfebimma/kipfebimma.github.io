@@ -99,9 +99,6 @@ div#section4 {
     padding-top: 0px;
     padding-bottom: 50px;
 }
-h2 {
-    font-size: 225%;
-}
 p {
     font-size: 120%;
     text-align: left;
@@ -123,18 +120,17 @@ a:link {
     background-color: transparent;
 } 
 a:hover {
-    color:black;
+    color:white;
     text-decoration: none;
     background-color: transparent;
 }
 #header a:hover{
     color:white;
 }
-### bron navigatiebar http://html.cita.illinois.edu/nav/menu/menu-example-hrzt.php ###
-
-div#section ul a:hover {
-    color: black;
-    font-weight: bold;  
+#section a:hover{
+    color:black;
+}
+bron navigatiebar http://html.cita.illinois.edu/nav/menu/menu-example-hrzt.php{
 }
 div#hmenu { 
    margin: 50px; 
