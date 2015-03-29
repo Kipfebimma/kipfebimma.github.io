@@ -122,6 +122,11 @@ a:link {
     text-decoration: none;
     background-color: transparent;
 } 
+a:hover {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
 div#section a:hover {
     color: black;
     font-weight: bold;  
@@ -159,7 +164,7 @@ div#hmenu ul a:link{
     border-radius: 10px;
     background-color: SlateGray;
    font-weight:; 
-   font-size: 198%; 
+   font-size: 200%; 
    color: black; 
     padding: 19px;
 } 
