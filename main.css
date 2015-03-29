@@ -27,6 +27,26 @@ p {
     font-size: 200%;
     position:relative;
 }
+p3 {
+    color:white;
+    text-align:justify;
+    font-family: monospace;
+    font-size: 200%;
+    border:2px solid white;
+    padding:40px;
+    margin:20px;
+      background-color:#787878;
+}
+p4 {
+    color:white;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 200%;
+    border:2px solid white;
+    padding:40px;
+    margin:60px;
+    background-color:#787878;
+}
 #footer {
     color: white;
     text-align: center;
@@ -68,7 +88,6 @@ div#section3 {
     margin-top: 50px;
     padding-top: 0px;
     padding-bottom: 70px;
-    
 }
 div#section4 {
     position: center;
@@ -84,7 +103,6 @@ div#section4 {
     margin-top: 50px;
     padding-top: 0px;
     padding-bottom: 50px;
-    
 }
 h2 {
     font-size: 225%;
@@ -124,19 +142,22 @@ div#hmenu {
     text-decoration: bold;
     padding: 15px;
 } 
-
+div#hmenu ul a:visited{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   font-size: 200%; 
+   color: white; 
+} 
 div#hmenu ul { 
    list-style: none; 
    margin: 0; 
    padding: 0; 
 } 
-
-div#hmenu ul li { 
+#hmenu ul li { 
    margin: 0; 
    padding: 0; 
    display: inline; 
 } 
-
 div#hmenu ul a:link{ 
    margin: 0; 
    padding: .3em .4em .3em .4em; 
@@ -148,14 +169,6 @@ div#hmenu ul a:link{
    color: black; 
     padding: 19px;
 } 
-
-div#hmenu ul a:visited{ 
-   margin: 0; 
-   padding: .3em .4em .3em .4em; 
-   font-size: 200%; 
-   color: white; 
-} 
-
 div#hmenu ul a:active{ 
    margin: 0; 
    padding: .3em .4em .3em .4em; 
@@ -163,25 +176,11 @@ div#hmenu ul a:active{
    font-size: 200%; 
    color: white; 
 } 
-
 div#hmenu ul a:hover{ 
    margin: 0; 
    padding: .3em .4em .3em .4em; 
    font-weight: bold; 
    font-size: 200%; 
    color: black ; 
-        padding: 19px;
+   padding: 19px;
 }
-div#section2 link{
-    margin: 0;
-    padding:.3em .4em .3em .4em;
-   font-weight: bold; 
-   font-size: 200%; 
-   color: black ; 
-}
-div#section2 hover{ 
-   margin: 0; 
-   padding: .3em .4em .3em .4em; 
-   font-size: 200%; 
-   color: white; 
-} 
