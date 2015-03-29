@@ -22,11 +22,6 @@ body {
 p {
    text-align: center;
 }
-#wrapper{
-    min-height: 100%;
-    font-size: 200%;
-    position:relative;
-}
 p3 {
     color:white;
     text-align:justify;
@@ -184,12 +179,3 @@ div#hmenu ul a:hover{
    color: black ; 
    padding: 19px;
 }
-
-a:link{
-   font-weight: bold; 
-   color: SlateGray; 
-}
-a:hover{ 
-   font-weight: bold; 
-   color: black; 
-} 
