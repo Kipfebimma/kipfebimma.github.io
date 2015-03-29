@@ -124,15 +124,15 @@ a:link {
 } 
 div#section a:hover {
     color: black;
-    font-weight: bold;
-    width: 555px;
+    font-weight: bold;  
 }
 div#hmenu { 
    margin: 50px; 
-   padding: .3em 0 .3em 0;  
+   padding: .3em 0 .3em 0; 
+   width: 600px; 
    text-align: center; 
     margin: auto;
-    color:white;
+    color:black;
     text-decoration: bold;
     padding: 15px;
 } 
