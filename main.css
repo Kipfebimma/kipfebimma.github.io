@@ -123,11 +123,15 @@ a:link {
     background-color: transparent;
 } 
 a:hover {
-    color:white;
+    color:black;
     text-decoration: none;
     background-color: transparent;
 }
+#header a:hover{
+    color:white;
+}
 ### bron navigatiebar http://html.cita.illinois.edu/nav/menu/menu-example-hrzt.php ###
+
 div#section ul a:hover {
     color: black;
     font-weight: bold;  
@@ -135,12 +139,12 @@ div#section ul a:hover {
 div#hmenu { 
    margin: 50px; 
    padding: .3em 0 .3em 0; 
-   width: 600px; 
+   width: 610px; 
    text-align: center; 
     margin: auto;
     color:black;
     text-decoration: bold;
-    padding: 15px;
+    padding: 25px;
 } 
 div#hmenu ul a:visited{ 
    margin: 0; 
@@ -167,7 +171,7 @@ div#hmenu ul a:link{
    font-weight:; 
    font-size: 200%; 
    color: black; 
-    padding: 19px;
+    padding: 22px;
 } 
 
 div#hmenu ul a:active{ 
@@ -183,5 +187,5 @@ div#hmenu ul a:hover{
    font-weight: bold; 
    font-size: 200%; 
    color: black ; 
-   padding: 19px;
+   padding: 22px;
 }
